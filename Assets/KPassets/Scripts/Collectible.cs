@@ -23,6 +23,8 @@ public class Collectible : MonoBehaviour
             {
                 //TODO:send the data to inventory
 
+
+
                 //destroy the object
                 Destroy(gameObject);
 
