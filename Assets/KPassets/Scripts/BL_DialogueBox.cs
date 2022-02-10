@@ -1,18 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
-public class DialogueBox : MonoBehaviour
+public class BL_DialogueBox
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public bool active;
+    public GameObject go;
+    public Text txt;
+    public Vector3 motion;
+    public float duration;
+    public float lastShown;
+
+    public void Show() {
+        active = true;
+        lastShown = Time.time;
+        go.SetActive(active);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Hide(){
+        active = false;
+        go.SetActive(active);
+    }
+
+    public void UpdateFloatingText(){
+        if (!active){
+            return;
+        }
+        //time now - moment shown > duration it should last
+        if (Time.time - lastShown > duration){
+            Hide();
+        }
+
+        go.transform.position += motion * Time.deltaTime;
     }
 }
+
