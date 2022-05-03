@@ -28,9 +28,9 @@ public class pile_interact : MonoBehaviour
         {
             //spawn newspaper,comic and mail
             //Vector2 mailSpawn = this.transform.position + new Vector
-            Instantiate(MAIL, this.transform.position + new Vector3(-0.5f, 0f, 0f), Quaternion.identity);
-            Instantiate(NEWSPAPER, this.transform.position + new Vector3(-0.0f, +0.6f, 0f), Quaternion.identity);
-            Instantiate(COMIC, this.transform.position + new Vector3(0.5f, -0.2f, 0f), Quaternion.identity);
+            //Instantiate(MAIL, this.transform.position + new Vector3(-0.5f, 0f, 0f), Quaternion.identity);
+            Instantiate(NEWSPAPER, this.transform.position + new Vector3(-0.0f, +0.2f, 0f), Quaternion.identity);
+            Instantiate(COMIC, this.transform.position + new Vector3(0.3f, -0.2f, 0f), Quaternion.identity);
 
             interacted = true;
 

@@ -10,12 +10,12 @@ public class PlayerController : MonoBehaviour
     Vector3 movement;
     public float xVelocity;
     public float yVelocity;
-    private Inventory inventory;
+    //private Inventory inventory;
 
 
     private void Awake()
     {
-        inventory = new Inventory();
+
     }
 
     // Update is called once per frame

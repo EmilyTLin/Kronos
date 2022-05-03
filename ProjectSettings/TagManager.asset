@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Collectible
+  - Item
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Item
   - Water
   - UI
   - Player
@@ -39,6 +40,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 1740513731
+    locked: 0
+  - name: Item
+    uniqueID: 2889777265
+    locked: 0
   - name: Player
     uniqueID: 3926546373
     locked: 0

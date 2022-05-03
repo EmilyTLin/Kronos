@@ -8,14 +8,14 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
-    public Inventory inventory;
+    //public Inventory inventory;
 
     Vector2 movement;
 
     // Update is called once per frame
     void Awake()
     {
-        //inventory = new Inventory();
+
     }
     void Update()
     {
