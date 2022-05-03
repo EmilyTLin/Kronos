@@ -16,7 +16,7 @@ public class pile_interact : MonoBehaviour
     void Start()
     {
         interacted = false;
-        Debug.Log("mail is spawning");
+        //Debug.Log("mail is spawning");
     }
 
     // Update is called once per frame
@@ -27,8 +27,6 @@ public class pile_interact : MonoBehaviour
             Input.GetKeyDown("space"))
         {
             //spawn newspaper,comic and mail
-            //Vector2 mailSpawn = this.transform.position + new Vector
-            //Instantiate(MAIL, this.transform.position + new Vector3(-0.5f, 0f, 0f), Quaternion.identity);
             Instantiate(NEWSPAPER, this.transform.position + new Vector3(-0.0f, +0.2f, 0f), Quaternion.identity);
             Instantiate(COMIC, this.transform.position + new Vector3(0.3f, -0.2f, 0f), Quaternion.identity);
 
@@ -43,7 +41,7 @@ public class pile_interact : MonoBehaviour
     bool scanForProximity()
     {
         float distance = Vector2.Distance(this.transform.position, player.transform.position);
-        Debug.Log(distance);
+        //Debug.Log(distance);
         if (distance < 0.8f) return true;
         return false;
     }

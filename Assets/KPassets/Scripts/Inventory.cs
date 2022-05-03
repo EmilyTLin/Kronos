@@ -14,11 +14,15 @@ public class Inventory : MonoBehaviour
 
     public GameObject slotHolder;
 
+    public bool triggerEntered;
+    private GameObject itemPickedUp;
+
     void Start()
     {
         allSlots = 25;
         enabledSlots = 25;
         slot = new GameObject[allSlots];
+        triggerEntered = false;
 
         for (int i = 0; i < allSlots; i++)
         {
@@ -46,20 +50,46 @@ public class Inventory : MonoBehaviour
         {
             inventory.SetActive(false);
         }
+
+        if (Input.GetKeyDown("space") 
+            && triggerEntered)
+        {
+            if (itemPickedUp.tag == "Item")
+            {
+                Debug.Log("found an item");
+
+                //GameObject itemPickedUp = other.gameObject;
+                Item item = itemPickedUp.GetComponent<Item>();
+
+                AddItem(itemPickedUp, item.ID, item.type, item.description, item.icon);
+                triggerEntered = false;
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Item")
+        triggerEntered = true;
+        itemPickedUp = other.gameObject;
+        /*
+        if (Input.GetKeyDown("space"))
         {
-            Debug.Log("found an item");
+            if (other.tag == "Item")
+            {
+                Debug.Log("found an item");
 
-            GameObject itemPickedUp = other.gameObject;
-            Item item = itemPickedUp.GetComponent<Item>();
+                GameObject itemPickedUp = other.gameObject;
+                Item item = itemPickedUp.GetComponent<Item>();
 
-            AddItem(itemPickedUp, item.ID, item.type, item.description, item.icon);
-
+                AddItem(itemPickedUp, item.ID, item.type, item.description, item.icon);
+            }
         }
+        */
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        triggerEntered = false;
     }
 
     void AddItem(GameObject itemObject, int itemID, string itemType, string itemDescription, Sprite itemIcon)
@@ -82,8 +112,9 @@ public class Inventory : MonoBehaviour
 
                 slot[i].GetComponent<SLOTS>().UpdateSlot() ;
                 slot[i].GetComponent<SLOTS>().empty = false;
+                return;
             }
-            return;
+
         }
     }
 }
