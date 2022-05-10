@@ -4060,6 +4060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: {fileID: 54008772}
   slotHolder: {fileID: 485138957}
+  triggerEntered: 0
 --- !u!61 &1753790912
 BoxCollider2D:
   m_ObjectHideFlags: 0
