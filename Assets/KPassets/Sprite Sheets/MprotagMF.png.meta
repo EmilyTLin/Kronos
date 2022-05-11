@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 5c3c2d068e2ebd741b61963dd1feb068
+guid: 5eafe03c293130a4e9638426171cef48
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8971044637241129440
-    second: TESTprotagonistMed_front-Sheet_0
+      213: -1130560944377240757
+    second: MprotagMF_0
   - first:
-      213: -1765457925862355043
-    second: TESTprotagonistMed_front-Sheet_1
+      213: 34370720571831388
+    second: MprotagMF_1
   - first:
-      213: 4628184934588417915
-    second: TESTprotagonistMed_front-Sheet_2
+      213: 6578748870533208251
+    second: MprotagMF_2
   - first:
-      213: -5540594037875540433
-    second: TESTprotagonistMed_front-Sheet_3
+      213: -3211251343751238289
+    second: MprotagMF_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -80,7 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TESTprotagonistMed_front-Sheet_0
+      name: MprotagMF_0
       rect:
         serializedVersion: 2
         x: 7
@@ -129,14 +129,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 026c11dde62708380800000000000000
-      internalID: -8971044637241129440
+      spriteID: b43e671afc07f40f0800000000000000
+      internalID: -1130560944377240757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TESTprotagonistMed_front-Sheet_1
+      name: MprotagMF_1
       rect:
         serializedVersion: 2
         x: 39
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f8317ce55df77e0800000000000000
-      internalID: -1765457925862355043
+      spriteID: c54bb5efcfb1a7000800000000000000
+      internalID: 34370720571831388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TESTprotagonistMed_front-Sheet_2
+      name: MprotagMF_2
       rect:
         serializedVersion: 2
         x: 71
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7705f44dad9a3040800000000000000
-      internalID: 4628184934588417915
+      spriteID: bb852a6fd396c4b50800000000000000
+      internalID: 6578748870533208251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TESTprotagonistMed_front-Sheet_3
+      name: MprotagMF_3
       rect:
         serializedVersion: 2
         x: 103
@@ -192,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2ef7cfe31bdb13b0800000000000000
-      internalID: -5540594037875540433
+      spriteID: f6d2633bae75f63d0800000000000000
+      internalID: -3211251343751238289
       vertices: []
       indices: 
       edges: []
