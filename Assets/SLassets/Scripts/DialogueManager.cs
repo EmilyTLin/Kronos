@@ -55,6 +55,11 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public bool sip()  //created a getter so i can use storyInProgress it to queue sound (bruce 5/24/2022)
+    {
+        return storyInProgress;
+    }
+
     // Start is called before the first frame update
     // Only use for testing purposes.
     void Start()
