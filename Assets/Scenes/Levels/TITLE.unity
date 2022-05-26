@@ -285,8 +285,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.50046, y: -82.51}
-  m_SizeDelta: {x: 244.9, y: 58.7538}
+  m_AnchoredPosition: {x: -1.9061, y: -82.51}
+  m_SizeDelta: {x: 579.09, y: 58.7538}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &368682061
 MonoBehaviour:
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit Game
+  m_text: ' Exit Game'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6709fc640d00ec540834319c2ccc1796, type: 2}
   m_sharedMaterial: {fileID: -3204611105740805272, guid: 6709fc640d00ec540834319c2ccc1796, type: 2}
@@ -898,7 +898,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Options
+  m_text: ' Options'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6709fc640d00ec540834319c2ccc1796, type: 2}
   m_sharedMaterial: {fileID: -3204611105740805272, guid: 6709fc640d00ec540834319c2ccc1796, type: 2}
@@ -1377,7 +1377,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1627,7 +1627,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Load Game
+  m_text: '  Load Game'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6709fc640d00ec540834319c2ccc1796, type: 2}
   m_sharedMaterial: {fileID: -3204611105740805272, guid: 6709fc640d00ec540834319c2ccc1796, type: 2}
@@ -1661,7 +1661,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1917,8 +1917,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: 34.733}
-  m_SizeDelta: {x: 245.9018, y: 52.3145}
+  m_AnchoredPosition: {x: -1.9074, y: 34.733}
+  m_SizeDelta: {x: 579.0861, y: 52.3145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822443654
 MonoBehaviour:
@@ -2050,8 +2050,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.50069, y: -138.02}
-  m_SizeDelta: {x: 244.9, y: 52.2665}
+  m_AnchoredPosition: {x: -3.0866, y: -138.02}
+  m_SizeDelta: {x: 576.7268, y: 52.2665}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1888280054
 MonoBehaviour:
@@ -2359,7 +2359,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Game
+  m_text: '  New Game'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6709fc640d00ec540834319c2ccc1796, type: 2}
   m_sharedMaterial: {fileID: -3204611105740805272, guid: 6709fc640d00ec540834319c2ccc1796, type: 2}
@@ -2393,7 +2393,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2511,8 +2511,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.50043, y: -22.278}
-  m_SizeDelta: {x: 244.9, y: 61.706}
+  m_AnchoredPosition: {x: -1.9072, y: -22.278}
+  m_SizeDelta: {x: 579.09, y: 61.706}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066014043
 MonoBehaviour:
