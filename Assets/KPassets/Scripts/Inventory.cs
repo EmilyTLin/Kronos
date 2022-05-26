@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
+    //public static Inventory instance;
 
     private bool inventoryEnabled;
     public GameObject inventory;
@@ -16,9 +17,16 @@ public class Inventory : MonoBehaviour
 
     public bool triggerEntered;
     private GameObject itemPickedUp;
+    void Awake()
+    {
+        inventory = GameObject.FindWithTag("Inventory");
+        slotHolder = GameObject.FindWithTag("Slots");
+    }
+
 
     void Start()
     {
+
         allSlots = 25;
         enabledSlots = 25;
         slot = new GameObject[allSlots];
