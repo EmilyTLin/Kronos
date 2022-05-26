@@ -12,6 +12,8 @@ public class pile_interact : MonoBehaviour
     public GameObject COMIC;
     public GameObject NEWSPAPER;
 
+    [SerializeField]
+    private TextAsset inkJSONAsset;
 
     void Start()
     {
@@ -31,6 +33,8 @@ public class pile_interact : MonoBehaviour
             Instantiate(COMIC, this.transform.position + new Vector3(0.3f, -0.2f, 0f), Quaternion.identity);
 
             interacted = true;
+
+            DialogueManager.Instance.StartStory(inkJSONAsset);
 
             //destroy mail
             Destroy(this.gameObject);

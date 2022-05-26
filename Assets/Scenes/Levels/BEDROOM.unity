@@ -1018,7 +1018,7 @@ PrefabInstance:
     - target: {fileID: 3916527221197313057, guid: fc52f31ad50e29443a044f4d429b6fc4, type: 3}
       propertyPath: sounds.Array.data[0].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 77aa12e74d8328d4793f409e2e2deea1, type: 3}
+      objectReference: {fileID: 8300000, guid: 6b7ff9fe88815554a8c77d07ee139096, type: 3}
     - target: {fileID: 3916527221197313057, guid: fc52f31ad50e29443a044f4d429b6fc4, type: 3}
       propertyPath: sounds.Array.data[0].name
       value: car alarm
@@ -2491,6 +2491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6939ae77b2b97f641be392f8bc99f1bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInRange: 0
+  eventTriggered: 0
+  inkJSONAsset: {fileID: 4900000, guid: ebd1451976ad5d44981942ebebabd819, type: 3}
 --- !u!1 &736922648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3779,7 +3782,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 15, y: 0}
   m_SizeDelta: {x: 0, y: 27}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1071589994
@@ -6894,6 +6897,7 @@ MonoBehaviour:
   MAIL: {fileID: 3855465063856176835, guid: 04503c740ff962749b3a04894bc1770f, type: 3}
   COMIC: {fileID: 8881922952484782270, guid: 1a0902952974dd14ab97dad0ff0db48d, type: 3}
   NEWSPAPER: {fileID: 367708957856019553, guid: a1aa65b78b7aa164d9d2f73fb8c6b38b, type: 3}
+  inkJSONAsset: {fileID: 4900000, guid: 8948aa1ab50736f459f93e4e712bf5f1, type: 3}
 --- !u!212 &1901516934
 SpriteRenderer:
   m_ObjectHideFlags: 0
