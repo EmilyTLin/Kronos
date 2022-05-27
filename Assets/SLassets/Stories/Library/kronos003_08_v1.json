@@ -1,0 +1,1 @@
+﻿{"inkVersion":20,"root":[["ev",{"VAR?":"playername"},"out","/ev","^: This newspaper clip looks interesting... ",{"#":"align left"},"\n","end",["done",{"#f":5,"#n":"g-0"}],null],"done",{"global decl":["ev","str","^Kronos","/str",{"VAR=":"playername"},"/ev","end",null],"#f":1}],"listDefs":{}}
