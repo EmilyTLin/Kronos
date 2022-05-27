@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/LIBRARY.unity
     guid: 409df0912a644134094e66de1a73e708
+  - enabled: 1
+    path: Assets/Scenes/Levels/APARTMENT_PRESENT.unity
+    guid: 894840472fa5cf1438895703ed5a9919
   m_configObjects: {}

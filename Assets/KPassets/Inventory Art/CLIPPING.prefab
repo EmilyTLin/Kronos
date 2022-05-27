@@ -10,8 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3855465063856176700}
   - component: {fileID: 3855465063856176701}
+  - component: {fileID: 4869246691681555248}
+  - component: {fileID: -3804625359411313547}
   m_Layer: 0
-  m_Name: MAIL
+  m_Name: CLIPPING
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3855465063856176835}
-  m_LocalRotation: {x: -0.004446266, y: -0.0056888815, z: 0.14603667, w: 0.9892528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.300687, y: -3.0406811, z: 0.034263603}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.409, y: -0.719, z: 16.798}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3855465063856176701
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -82,3 +84,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4869246691681555248
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3855465063856176835}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.16, y: 0.16}
+  m_EdgeRadius: 0
+--- !u!114 &-3804625359411313547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3855465063856176835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a49e219e5004d439e423b2f88ebe92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 3
+  type: Item
+  description: Newspaper Clipping #1
+  icon: {fileID: 21300000, guid: 14fc383a47ffaaa409abedf87e0b5a5b, type: 3}
+  pickedUp: 0

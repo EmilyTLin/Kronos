@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DoorToLibrary : MonoBehaviour
+public class DoorToNextScene: MonoBehaviour
 {
 
     public GameObject player;
@@ -22,7 +22,8 @@ public class DoorToLibrary : MonoBehaviour
 
         if ( distance < 2.1f && Input.GetKeyDown("space"))
         {
-            SceneManager.LoadScene(3);
+            int y = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(y+1);
         }
     }
 }
