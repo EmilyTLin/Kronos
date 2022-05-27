@@ -17,6 +17,15 @@ public class Inventory : MonoBehaviour
 
     public bool triggerEntered;
     private GameObject itemPickedUp;
+
+    //THIS MIGHT AND WILL BREAK
+    public GameObject addToSlot0;
+    public GameObject addToSlot1;
+    public GameObject addToSlot2;
+    public GameObject addToSlot3;
+    public GameObject addToSlot4;
+
+
     void Awake()
     {
         //inventory = GameObject.FindWithTag("Inventory");
@@ -41,6 +50,60 @@ public class Inventory : MonoBehaviour
                 slot[i].GetComponent<SLOTS>().empty = true;
             }
         }
+
+        //CAVEMAN CODE
+        for (int i = 0; i < 5; i++)
+        {
+            switch (i)
+            {
+                case 0:
+                    if (addToSlot0 != null)
+                    {
+                        Item item = addToSlot0.GetComponent<Item>();
+                        Debug.Log("failing additem");
+                        Debug.Log(item.ID);
+                        AddItem(addToSlot0, item.ID, item.type, item.description, item.icon);
+                        Debug.Log("passing additem");
+
+                    }
+                    break;
+                case 1:
+                    if (addToSlot1 != null)
+                    {
+                        Item item = addToSlot1.GetComponent<Item>();
+
+                        AddItem(addToSlot1, item.ID, item.type, item.description, item.icon);
+                    }
+                    break;
+                case 2:
+                    if (addToSlot2 != null)
+                    {
+                        Item item = addToSlot2.GetComponent<Item>();
+
+                        AddItem(addToSlot2, item.ID, item.type, item.description, item.icon);
+                    }
+                    break;
+                case 3:
+                    if (addToSlot3 != null)
+                    {
+                        Item item = addToSlot3.GetComponent<Item>();
+
+                        AddItem(addToSlot3, item.ID, item.type, item.description, item.icon);
+                    }
+                    break;
+                case 4:
+                    if (addToSlot4 != null)
+                    {
+                        Item item = addToSlot4.GetComponent<Item>();
+
+                        AddItem(addToSlot4, item.ID, item.type, item.description, item.icon);
+                    }
+                    break;
+            }
+
+        }
+        //END OF CAVEMAN CODE
+
     }
 
     void Update()
