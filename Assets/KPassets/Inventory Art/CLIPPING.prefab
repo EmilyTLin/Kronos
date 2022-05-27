@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3855465063856176701}
   - component: {fileID: 4869246691681555248}
   - component: {fileID: -3804625359411313547}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CLIPPING
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
