@@ -124,6 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 2
   type: Item
-  description: Buzzfeed Blue
+  description: 'July 17, 2017. The headline reads: A Hero Has Fallen: Golden Streak
+    Injured in Apartment Fire.'
   icon: {fileID: 21300000, guid: 98c64b45520db6f4fa50cc4b7e0d3390, type: 3}
   pickedUp: 0
