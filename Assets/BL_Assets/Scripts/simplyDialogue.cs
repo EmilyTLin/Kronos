@@ -12,12 +12,21 @@ public class simplyDialogue : MonoBehaviour
     [SerializeField]
     private TextAsset inkJSONAsset;
 
+    //public int interactionCounter;
+
+    void Start()
+    {
+        //interactionCounter = 0;
+    }
+
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && playerInRange && !eventTriggered)
         {
             if (inkJSONAsset != null)
                 DialogueManager.Instance.StartStory(inkJSONAsset);
+                //interactionCounter++;
             else
                 Debug.LogWarning("No Script Provided");
 
