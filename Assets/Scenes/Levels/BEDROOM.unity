@@ -4339,7 +4339,6 @@ GameObject:
   - component: {fileID: 976268921}
   - component: {fileID: 976268920}
   - component: {fileID: 976268924}
-  - component: {fileID: 976268925}
   m_Layer: 5
   m_Name: Pause Screen Canvas
   m_TagString: Untagged
@@ -4443,18 +4442,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 688621763}
   settingsMenuUI: {fileID: 1312830759}
---- !u!114 &976268925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 976268919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7a136718e151ed4ca3c77f2573874ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1009099328
 GameObject:
   m_ObjectHideFlags: 0
