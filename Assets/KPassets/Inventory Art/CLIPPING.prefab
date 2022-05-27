@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: -1405190031
   m_SortingLayer: -2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 14fc383a47ffaaa409abedf87e0b5a5b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5e6b680be26c72c4b854876ab07559b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.16}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -125,5 +125,5 @@ MonoBehaviour:
   ID: 3
   type: Item
   description: Newspaper Clipping #1
-  icon: {fileID: 21300000, guid: 14fc383a47ffaaa409abedf87e0b5a5b, type: 3}
+  icon: {fileID: 21300000, guid: 5e6b680be26c72c4b854876ab07559b5, type: 3}
   pickedUp: 0
