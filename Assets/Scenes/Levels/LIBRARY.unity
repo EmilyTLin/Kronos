@@ -480,8 +480,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &61098105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,8 +765,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &231216745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1011,8 +1015,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &462593061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1150,8 +1156,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &483128946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1374,8 +1382,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &559336485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1513,8 +1523,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &608171977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1652,8 +1664,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &633646403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1983,8 +1997,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &841440878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2297,8 +2313,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &961363268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2436,8 +2454,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1014515655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2766,8 +2786,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1107682708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2905,8 +2927,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1109648878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,8 +3068,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1128911295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3282,8 +3308,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1153727816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3748,8 +3776,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1226309850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3887,8 +3917,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1280637405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4026,8 +4058,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1329329478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4274,8 +4308,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1357096040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4679,8 +4715,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1500027741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4818,8 +4856,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1503834792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5046,8 +5086,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1596178180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5876,8 +5918,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1664901545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6220,8 +6264,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1851280939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6436,8 +6482,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &1937534605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6532,6 +6580,7 @@ GameObject:
   - component: {fileID: 1997995488}
   - component: {fileID: 1997995487}
   - component: {fileID: 1997995490}
+  - component: {fileID: 1997995491}
   m_Layer: 0
   m_Name: Collette
   m_TagString: Untagged
@@ -6637,6 +6686,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997995486}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080e4afa92024ce4e9e83b1682fbd0f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInRange: 0
+  eventTriggered: 0
+  inkJSONAsset0: {fileID: 4900000, guid: 2f3a0d775765091419c7270ef4c98594, type: 3}
+  inkJSONAsset1: {fileID: 0}
+  interactionCounter: 0
+--- !u!114 &1997995491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997995486}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6939ae77b2b97f641be392f8bc99f1bd, type: 3}
@@ -6644,7 +6710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerInRange: 0
   eventTriggered: 0
-  inkJSONAsset: {fileID: 0}
+  inkJSONAsset: {fileID: 4900000, guid: 2f3a0d775765091419c7270ef4c98594, type: 3}
 --- !u!1 &2003514909
 GameObject:
   m_ObjectHideFlags: 0
@@ -6700,8 +6766,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 0}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 0}
 --- !u!114 &2003514912
 MonoBehaviour:
   m_ObjectHideFlags: 0
