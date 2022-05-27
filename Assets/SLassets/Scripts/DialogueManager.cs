@@ -17,6 +17,9 @@ public class DialogueManager : MonoBehaviour
     private bool storyInProgress = false;
     private bool choiceSelected = true;
 
+    // ActiveBox: Left = 0; Right = 1; Unknown = 2
+    private int activeBox = 0;
+
     [Range(0, 0.05f)]
     [SerializeField]
     private float textDelay;
@@ -27,8 +30,22 @@ public class DialogueManager : MonoBehaviour
     //[SerializeField]
     //private TextAsset inkJSONAsset;
 
+
     [SerializeField]
-    private TextMeshProUGUI speaker;
+    private TextMeshProUGUI leftSpeaker;
+
+    [SerializeField]
+    private Image leftPortrait;
+
+    [SerializeField]
+    private TextMeshProUGUI rightSpeaker;
+
+    [SerializeField]
+    private Image rightPortrait;
+
+    [SerializeField]
+    private TextMeshProUGUI unknownSpeaker;
+
 
     [SerializeField]
     private TextMeshProUGUI speech;
@@ -40,6 +57,20 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private Button buttonPrefab;
     //private TextMeshProUGUI buttonPrefab;
+
+
+    /*
+     * THE FOLLOWING DECLARATIONS ARE TEMPORARY
+     * FOR THE DEMO (because I don't know how
+     * to reference asset paths through code lol)
+     */
+
+    [SerializeField]
+    private Texture2D kronos_1;
+
+    /*
+     * END OF TEMPORARY DECLARATIONS
+     */
 
     // I don't understand this yet I copy/pasted it lol
     // Pretty sure it has to do with preventing duplicate singletons
@@ -64,6 +95,11 @@ public class DialogueManager : MonoBehaviour
     // Only use for testing purposes.
     void Start()
     {
+        leftSpeaker.transform.parent.gameObject.SetActive(false);
+        rightSpeaker.transform.parent.gameObject.SetActive(false);
+        unknownSpeaker.transform.parent.gameObject.SetActive(false);
+        speech.transform.parent.gameObject.SetActive(false);
+
         //StartStory();
     }
 
@@ -96,10 +132,12 @@ public class DialogueManager : MonoBehaviour
         storyInProgress = true;
         Debug.Log("Successfully loaded dialogue");
 
-        speaker.transform.parent.gameObject.SetActive(true);
+        //if(!focusLeft) rightSpeaker.transform.parent.gameObject.SetActive(true);
+        //else leftSpeaker.transform.parent.gameObject.SetActive(true);
+
         speech.transform.parent.gameObject.SetActive(true);
 
-        speech.color = Color.white;
+        speech.color = Color.black;
         RefreshView();
         CheckForChoices();
     }
@@ -112,24 +150,88 @@ public class DialogueManager : MonoBehaviour
         ParseTags();
 
         int i = message.IndexOf(":");
-        if (i > 0)
+
+        if (activeBox == 1)
         {
-            speaker.text = message.Substring(0, i);
-            message = message.Substring(i).Trim(charsToTrim);
-        }
-        else
-        {
-            speaker.text = "System";
+            leftSpeaker.transform.parent.gameObject.SetActive(false);
+            rightSpeaker.transform.parent.gameObject.SetActive(true);
+            unknownSpeaker.transform.parent.gameObject.SetActive(false);
+
+            if (i > 0)
+            {
+                rightSpeaker.text = message.Substring(0, i);
+                message = message.Substring(i).Trim(charsToTrim);
+            }
+            else
+            {
+                rightSpeaker.text = "System";
+            }
+
+
+            if (rightSpeaker.text == "System")
+            {
+                rightSpeaker.transform.parent.gameObject.SetActive(false);
+            }
+            else
+            {
+                rightSpeaker.transform.parent.gameObject.SetActive(true);
+            }
         }
 
-        if (speaker.text == "System")
+        else if (activeBox == 2)
         {
-            speaker.transform.parent.gameObject.SetActive(false);
+            leftSpeaker.transform.parent.gameObject.SetActive(false);
+            rightSpeaker.transform.parent.gameObject.SetActive(false);
+            unknownSpeaker.transform.parent.gameObject.SetActive(true);
+
+            if (i > 0)
+            {
+                unknownSpeaker.text = message.Substring(0, i);
+                message = message.Substring(i).Trim(charsToTrim);
+            }
+            else
+            {
+                unknownSpeaker.text = "System";
+            }
+
+
+            if (unknownSpeaker.text == "System")
+            {
+                unknownSpeaker.transform.parent.gameObject.SetActive(false);
+            }
+            else
+            {
+                unknownSpeaker.transform.parent.gameObject.SetActive(true);
+            }
         }
+
         else
         {
-            speaker.transform.parent.gameObject.SetActive(true);
+            leftSpeaker.transform.parent.gameObject.SetActive(true);
+            rightSpeaker.transform.parent.gameObject.SetActive(false);
+            unknownSpeaker.transform.parent.gameObject.SetActive(false);
+
+            if (i > 0)
+            {
+                leftSpeaker.text = message.Substring(0, i);
+                message = message.Substring(i).Trim(charsToTrim);
+            }
+            else
+            {
+                leftSpeaker.text = "System";
+            }
+
+
+            if (leftSpeaker.text == "System")
+            {
+                leftSpeaker.transform.parent.gameObject.SetActive(false);
+            }
+            else
+            {
+                leftSpeaker.transform.parent.gameObject.SetActive(true);
+            }
         }
+
 
         StopAllCoroutines();
         StartCoroutine(TypeSentence(message));
@@ -211,13 +313,18 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("Dialogue terminated");
 
         storyInProgress = false;
-        speaker.transform.parent.gameObject.SetActive(false);
+        leftSpeaker.transform.parent.gameObject.SetActive(false);
+        rightSpeaker.transform.parent.gameObject.SetActive(false);
+        unknownSpeaker.transform.parent.gameObject.SetActive(false);
         speech.transform.parent.gameObject.SetActive(false);
     }
 
     // Handle cases of tags in story file
     private void ParseTags()
     {
+        // Set default tag values first
+        SetTextColor("black");
+
         tagList = story.currentTags;    // Should tagList be declared here instead?
         foreach (string tag in tagList)
         {
@@ -228,6 +335,23 @@ public class DialogueManager : MonoBehaviour
             {
                 case "color":
                     SetTextColor(param);
+                    break;
+                case "align":
+                    if(param == "right")
+                    {
+                        activeBox = 1;
+                    }
+                    else if(param == "unknown")
+                    {
+                        activeBox = 2;
+                    }
+                    else
+                    {
+                        activeBox = 0;
+                    }
+                    break;
+                case "face":
+                    SetPortrait(param);
                     break;
                 // Any other tags? (Portrait expressions, sprite expressions, sound effects)
                 default:
@@ -242,17 +366,56 @@ public class DialogueManager : MonoBehaviour
         switch (color)
         {
             case "blue":
-                speech.color = Color.cyan;
+                //speech.color = Color.cyan;
+                speech.color = new Color(0, 0, 0.8f);
                 break;
             case "green":
-                speech.color = Color.green;
+                //speech.color = Color.green;
+                speech.color = new Color(0, 0.8f, 0);
                 break;
-            case "white":   // Same as default case
+            case "black":   // Same as default case
+                speech.color = Color.black;
+                break;
+            case "white":
                 speech.color = Color.white;
                 break;
             default:
-                speech.color = Color.white;
+                speech.color = Color.black;
                 break;
         }
     }
+
+    /*
+     * THE FOLLOWING CODE IS TEMPORARY
+     * FOR THE DEMO (because I don't know how
+     * to reference asset paths through code lol)
+     */
+
+    // Face tag
+    private void SetPortrait(string portrait)
+    {
+        switch (portrait)
+        {
+            case "col1_yay":
+                if (activeBox == 1)
+                {
+                    //rightPortrait.sprite.LoadImage();
+                    rightPortrait.sprite = Resources.Load<Sprite>("Assets/Sprites/col1_yay");
+                }
+                else
+                {
+                    //leftPortrait;
+                }
+                break;
+            default:
+                activeBox = 2;
+                break;
+        }
+        
+    }
+
+    /*
+     * END OF TEMPORARY DECLARATIONS
+     */
+
 }
