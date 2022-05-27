@@ -19,8 +19,8 @@ public class Inventory : MonoBehaviour
     private GameObject itemPickedUp;
     void Awake()
     {
-        inventory = GameObject.FindWithTag("Inventory");
-        slotHolder = GameObject.FindWithTag("Slots");
+        //inventory = GameObject.FindWithTag("Inventory");
+        //slotHolder = GameObject.FindWithTag("Slots");
     }
 
 
