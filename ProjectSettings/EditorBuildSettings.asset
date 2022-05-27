@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/APARTMENT_PRESENT.unity
     guid: 894840472fa5cf1438895703ed5a9919
+  - enabled: 1
+    path: Assets/Scenes/Levels/APARTMENT_PAST.unity
+    guid: 944c1d3dc669ab94385e695a8eb53d97
   m_configObjects: {}
