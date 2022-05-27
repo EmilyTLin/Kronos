@@ -157,6 +157,7 @@ RectTransform:
   - {fileID: 485138958}
   - {fileID: 736922649}
   - {fileID: 1254214036}
+  - {fileID: 1753205247}
   m_Father: {fileID: 1039436902}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -633,7 +634,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 331478838}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 331478840}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &331478838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,8 +701,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &352154785
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +787,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 352154788}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 352154790}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &352154788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -827,8 +854,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &364116460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,7 +1531,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 523395814}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 523395816}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &523395814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,8 +1598,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &618919488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,7 +1684,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 618919491}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 618919493}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &618919491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1696,8 +1751,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &628230875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,7 +1837,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 628230878}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 628230880}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &628230878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1835,8 +1904,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &664971595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,7 +2217,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 690764582}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 690764584}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &690764582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2201,8 +2284,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &704579349
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,7 +2370,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 704579352}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 704579354}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &704579352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2340,8 +2437,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &732887276
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,7 +2747,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 756478329}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 756478331}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &756478329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2703,8 +2814,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &763824043
 GameObject:
   m_ObjectHideFlags: 0
@@ -2787,7 +2900,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 763824046}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 763824048}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &763824046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2842,8 +2967,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &877140577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2926,7 +3053,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 877140580}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 877140582}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &877140580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2981,8 +3120,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &894192183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,7 +3206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 894192186}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 894192188}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &894192186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3120,8 +3273,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &911222014
 GameObject:
   m_ObjectHideFlags: 0
@@ -3377,7 +3532,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 975904439}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 975904441}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &975904439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3432,8 +3599,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1009099328
 GameObject:
   m_ObjectHideFlags: 0
@@ -3516,7 +3685,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1009099331}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1009099333}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1009099331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3571,8 +3752,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1001 &1029862584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3714,7 +3897,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -3969,7 +4152,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1127508544}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1127508546}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1127508544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4024,8 +4219,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1244510844
 GameObject:
   m_ObjectHideFlags: 0
@@ -4108,7 +4305,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1244510847}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1244510849}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1244510847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4163,8 +4372,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1254214035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4600,7 +4811,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1289632889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1289632892}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1289632892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4617,8 +4840,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1310486420
 GameObject:
   m_ObjectHideFlags: 0
@@ -4804,7 +5029,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1323984278}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1323984280}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1323984278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4859,8 +5096,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1332849698
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,7 +5833,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1532063258}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1532063260}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1532063258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5649,8 +5900,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1544393758
 GameObject:
   m_ObjectHideFlags: 0
@@ -5733,7 +5986,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1544393761}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1544393763}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1544393761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5788,8 +6053,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1563774894
 GameObject:
   m_ObjectHideFlags: 0
@@ -6099,7 +6366,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1578070451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1578070453}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1578070451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6154,8 +6433,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1628225004
 GameObject:
   m_ObjectHideFlags: 0
@@ -6238,7 +6519,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1628225007}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1628225009}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1628225007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6293,8 +6586,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1683017521
 GameObject:
   m_ObjectHideFlags: 0
@@ -6543,7 +6838,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1741238861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1741238863}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1741238861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6598,8 +6905,89 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
+--- !u!1 &1753205246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753205247}
+  - component: {fileID: 1753205249}
+  - component: {fileID: 1753205248}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1753205247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753205246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 54008773}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 157.6279, y: 0.3887}
+  m_SizeDelta: {x: 207.2559, y: 205.6226}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1753205248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753205246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 71860cbf0a4161a4b97ca7064b31b4a1, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 76
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Description
+--- !u!222 &1753205249
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753205246}
+  m_CullTransparentMesh: 1
 --- !u!1 &1753790905 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9043770412829383461, guid: e4be5b62ef86cc645a85402e5f699bb7, type: 3}
@@ -6687,7 +7075,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1824407607}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1824407609}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1824407607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6742,8 +7142,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1872658731
 GameObject:
   m_ObjectHideFlags: 0
@@ -7057,7 +7459,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1927414939}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1927414941}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1927414939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7112,8 +7526,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1 &1960953951
 GameObject:
   m_ObjectHideFlags: 0
@@ -7240,7 +7656,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2007742298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2007742300}
+        m_TargetAssemblyTypeName: SLOTS, Assembly-CSharp
+        m_MethodName: displayDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2007742298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7295,8 +7723,10 @@ MonoBehaviour:
   ID: 0
   type: 
   description: 
+  dialogtext: {fileID: 1753205248}
   empty: 0
   icon: {fileID: 0}
+  txtbox: {fileID: 1753205246}
 --- !u!1001 &8732744381157599602
 PrefabInstance:
   m_ObjectHideFlags: 0
