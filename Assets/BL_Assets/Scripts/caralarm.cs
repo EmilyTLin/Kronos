@@ -8,4 +8,9 @@ public class caralarm : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play("car alarm");
     }
+
+    private void Update()
+    {
+
+    }
 }

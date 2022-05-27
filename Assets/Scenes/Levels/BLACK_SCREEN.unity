@@ -1399,7 +1399,7 @@ PrefabInstance:
     - target: {fileID: 3916527221197313057, guid: fc52f31ad50e29443a044f4d429b6fc4, type: 3}
       propertyPath: sounds.Array.data[1].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 77aa12e74d8328d4793f409e2e2deea1, type: 3}
+      objectReference: {fileID: 8300000, guid: 6b7ff9fe88815554a8c77d07ee139096, type: 3}
     - target: {fileID: 3916527221197313057, guid: fc52f31ad50e29443a044f4d429b6fc4, type: 3}
       propertyPath: sounds.Array.data[1].name
       value: car alarm
