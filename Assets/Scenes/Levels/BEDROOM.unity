@@ -4602,6 +4602,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1753790911, guid: e4be5b62ef86cc645a85402e5f699bb7, type: 3}
+      propertyPath: inventory
+      value: 
+      objectReference: {fileID: 54008772}
+    - target: {fileID: 1753790911, guid: e4be5b62ef86cc645a85402e5f699bb7, type: 3}
       propertyPath: slotHolder
       value: 
       objectReference: {fileID: 485138957}
@@ -4667,7 +4671,6 @@ GameObject:
   - component: {fileID: 1039436901}
   - component: {fileID: 1039436900}
   - component: {fileID: 1039436899}
-  - component: {fileID: 1039436903}
   m_Layer: 5
   m_Name: Inventory Canvas
   m_TagString: Untagged
@@ -4756,18 +4759,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1039436903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039436898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7a136718e151ed4ca3c77f2573874ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1056465942
 GameObject:
   m_ObjectHideFlags: 0
@@ -4937,7 +4928,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 15, y: 0}
   m_SizeDelta: {x: 0, y: 27}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1071589994
@@ -6501,6 +6492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413971578}
   - component: {fileID: 1413971577}
+  - component: {fileID: 1413971579}
   m_Layer: 0
   m_Name: DoorToLibrary
   m_TagString: Untagged
@@ -6535,6 +6527,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1413971579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413971576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bbfd7ab407317643b27cfc12bc297ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1753790905}
 --- !u!1 &1430563351
 GameObject:
   m_ObjectHideFlags: 0

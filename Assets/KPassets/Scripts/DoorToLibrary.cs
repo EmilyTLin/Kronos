@@ -20,7 +20,7 @@ public class DoorToLibrary : MonoBehaviour
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
 
-        if ( distance < 0.7f && Input.GetKeyDown("space"))
+        if ( distance < 2.245f && Input.GetKeyDown("space"))
         {
             SceneManager.LoadScene(3);
         }
