@@ -5,6 +5,7 @@ using UnityEngine;
 public class notSimplyDialogue : MonoBehaviour
 {
     public bool playerInRange;
+    public int rangeNum = 0;
     public bool eventTriggered = false;
 
     [SerializeField]
@@ -13,8 +14,14 @@ public class notSimplyDialogue : MonoBehaviour
     public TextAsset inkJSONAsset1;
     [SerializeField]
     public TextAsset inkJSONFlashback;
+    [SerializeField]
+    public TextAsset inkJSONAsset2;
+    [SerializeField]
+    public TextAsset inkJSONAsset3;
 
     public bool isInConversation = false;
+    public bool firstConversation = true;
+    public bool secondConversation = true;
     public int interactionCounter;
     public bool ifFlashback = false;
 
@@ -38,7 +45,7 @@ public class notSimplyDialogue : MonoBehaviour
             eventTriggered = true;
         }
         */
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange && !eventTriggered)
+        if (Input.GetKeyDown(KeyCode.Space) && playerInRange && firstConversation)
         {
             switch (interactionCounter)
             {
@@ -50,7 +57,7 @@ public class notSimplyDialogue : MonoBehaviour
                     }
                     else
                         Debug.LogWarning("No Script Provided");
-                    //ifFlashback = false;
+                    ifFlashback = false;
                     
                     break;
                 case 1:
@@ -58,12 +65,25 @@ public class notSimplyDialogue : MonoBehaviour
                     {
                         //TODO: add flashback
                         DialogueManager.Instance.StartStory(inkJSONFlashback);
-                        ifFlashback = true;
+                        //ifFlashback = true;
+                        interactionCounter++;
+
+                    }
+                    break;
+                case 2:
+                    if (inkJSONAsset1 != null && !DialogueManager.Instance.sip())
+                    {
+                        DialogueManager.Instance.StartStory(inkJSONAsset1);
+                        interactionCounter++;
+                        firstConversation = false;
+
                     }
                     break;
                 default:
                     break;
+
             }
+            //firstConversation = false;
             /*
             if(!ifFlashback)
             {
@@ -76,6 +96,25 @@ public class notSimplyDialogue : MonoBehaviour
                 ifFlashback = true;
             }
             */
+        }
+
+        else if(Input.GetKeyDown(KeyCode.Space) && playerInRange && rangeNum > 1 && secondConversation)
+        {
+            if (inkJSONAsset2 != null && !DialogueManager.Instance.sip())
+            {
+                DialogueManager.Instance.StartStory(inkJSONAsset2);
+                secondConversation = false;
+            }
+
+        }
+
+        else if(Input.GetKeyDown(KeyCode.Space) && playerInRange && rangeNum > 1 && !secondConversation)
+        {
+            if (inkJSONAsset3 != null && !DialogueManager.Instance.sip())
+            {
+                DialogueManager.Instance.StartStory(inkJSONAsset3);
+                //secondConversation = false;
+            }
         }
 
     }
@@ -92,6 +131,7 @@ public class notSimplyDialogue : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         playerInRange = true;
+        rangeNum++;
     }
 
     void OnTriggerExit2D(Collider2D collision)
