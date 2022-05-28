@@ -1692,7 +1692,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -798765763230521839, guid: b9ffd03fcdb80e14386fb8cc46651116, type: 3}
+  m_Sprite: {fileID: 496709730964315926, guid: b9ffd03fcdb80e14386fb8cc46651116, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2353,7 +2353,7 @@ MonoBehaviour:
         m_MethodName: StartStory
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 4900000, guid: be8c769e3a9e822459cd902b7f60d116, type: 3}
+          m_ObjectArgument: {fileID: 4900000, guid: 5f68b788c08aa8e44b445d2ce4b7f16a, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.TextAsset, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2532,7 +2532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1397926280
 RectTransform:
   m_ObjectHideFlags: 0
