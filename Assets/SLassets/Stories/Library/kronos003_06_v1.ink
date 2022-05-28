@@ -4,8 +4,7 @@ VAR playername = "Kronos"
 IF NEWS CLIPPING IN INVENTORY AND LEARNED COLETTE WAS THE STREAK (THROUGH CONVERSATION WITH HER) (ALSO SHOULD ONLY ACTIVATE IF TALKED TO COLETTE AT LEAST TWICE. -Steve): 
 */
 
-*[ This newspaper... ]
-Colette: Oh. Yeah. That. Ancient history. Kind of? #align right
+Colette: Oh. Yeah. That newspaper. Ancient history. Kind of? #align right
 -> newspaper
 
 === newspaper ===
