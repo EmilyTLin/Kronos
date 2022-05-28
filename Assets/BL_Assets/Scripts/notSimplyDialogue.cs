@@ -107,7 +107,7 @@ public class notSimplyDialogue : MonoBehaviour
             }
 
         }
-
+        /*
         else if(Input.GetKeyDown(KeyCode.Space) && playerInRange && rangeNum > 1 && !secondConversation)
         {
             if (inkJSONAsset3 != null && !DialogueManager.Instance.sip())
@@ -116,6 +116,7 @@ public class notSimplyDialogue : MonoBehaviour
                 //secondConversation = false;
             }
         }
+        */
 
     }
 
